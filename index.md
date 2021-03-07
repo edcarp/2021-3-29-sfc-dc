@@ -9,7 +9,7 @@ country: "United Kingdom"      # lowercase two-letter ISO country code such as "
 language: "English"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
 humandate: "29–31 March 2021"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "10am–3pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2021-03-31      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+startdate: 2021-03-29      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2021-03-31        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Phil Reed", "Chris Wood", "Robert Nagy"] # boxed, comma-separated list of instructors' names as strings, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 helper: ["Mario Antonioletti", "Peter Smyth", "Isabella Deutsch", "Shashank Shekhar Harivyasi", "Alan O'Callaghan", "Francesca Baseby", "Steven Ford"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
