@@ -5,7 +5,7 @@ layout: workshop      # DON'T CHANGE THIS.
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "University of Edinburgh"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
 address: "Online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
-country: "United Kingdom"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
+country: "gb"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "English"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
 humandate: "29–31 March 2021"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "10am–3pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
@@ -215,8 +215,7 @@ special instructions.
   Materials will be provided in advance of the workshop and
   large-print handouts are available if needed by notifying the
   organizers in advance.  If we can help making learning easier for
-  you (e.g. sign-language interpreters, lactation facilities) please
-  get in touch (using contact details below) and we will
+  you please get in touch (using contact details below) and we will
   attempt to provide them.
 </p>
 {% else %}
@@ -418,10 +417,10 @@ These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
 
-{% if site.carpentry == "swc" %}
+<!--{% if site.carpentry == "swc" %}-->
 {% include swc/setup.html %}
-{% elsif site.carpentry == "dc" %}
+<!--{% elsif site.carpentry == "dc" %}-->
 {% include dc/setup.html %}
-{% elsif site.carpentry == "lc" %}
+<!--{% elsif site.carpentry == "lc" %}-->
 {% include lc/setup.html %}
-{% endif %}
+<!--{% endif %}-->
