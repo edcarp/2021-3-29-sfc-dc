@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/carpentries/workshop-template.svg?branch=gh-pages)](https://travis-ci.com/carpentries/workshop-template)
+[![Build Status](https://travis-ci.com/carpentries/workshop-template.svg?branch=gh-pages)](https://travis-ci.com/carpentries/workshop-template) [![Join the chat at https://gitter.im/2021-3-29-sfc-dc/community](https://badges.gitter.im/2021-3-29-sfc-dc/community.svg)](https://gitter.im/2021-3-29-sfc-dc/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 # The Carpentries Workshop Template
 
