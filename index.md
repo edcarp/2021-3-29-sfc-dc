@@ -36,16 +36,6 @@ For a workshop please delete the following block until the next dashed-line
 {% endcomment %}
 
 
-<div class="alert alert-danger">
-This is the workshop template. Delete these lines and use it to
-<a href="https://carpentries.github.io/workshop-template/customization/index.html">customize</a>
-your own website. If you are running a self-organized workshop or have not put
-in a workshop request yet, please also fill in
-<a href="{{site.amy_site}}/forms/self-organised/">this workshop request form</a>
-to let us know about your workshop and our administrator may contact you if we
-need any extra information.
-</div>
-
 {% comment %}
 8< ============================= until here ==================
 {% endcomment %}
@@ -354,40 +344,13 @@ of code below the Schedule `<h2>` header below with
 
 <h2 id="schedule">Schedule</h2>
 
-<div class="row">
-<div class="col-md-6">
-<h3>Day 1</h3>
-<table class="table table-striped">
-<tr>
-<td>Before starting</td>
-<td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
-</tr>
-<tr><td>Morning</td> <td> <a href="https://librarycarpentry.org/lc-spreadsheets/">Data Organization in Spreadsheets</a></td></tr>
-<tr><td>Afternoon</td><td><a href="https://librarycarpentry.org/lc-open-refine/">OpenRefine for Data Cleaning</a></td></tr>
-</table>
-</div>
-
-<div class="col-md-6">
-<h3>Day 2</h3>
-<table class="table table-striped">
-<tr>
-<tr><td>Morning</td> <td> <a href="https://librarycarpentry.org/lc-python-intro/">Python: Data analysis and Visualizations</a></td></tr>
-</tr>
-</table>
-</div>
-
-<div class="col-md-6">
-<h3>Day 3</h3>
-<table class="table table-striped">
-<tr> <td>Morning</td>
-<td>
-<a href="https://librarycarpentry.org/lc-python-intro/">Continuation of Python: Data analysis and Visualization</a>
-</td>
-</tr>
-<td>Follow-up</td><td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
-</table>
-</div>
-</div>
+{% if site.carpentry == "swc" %}
+{% include swc/schedule.html %}
+{% elsif site.carpentry == "dc" %}
+{% include dc/schedule.html %}
+{% elsif site.carpentry == "lc" %}
+{% include lc/schedule.html %}
+{% endif %}
 
 <hr/>
 
