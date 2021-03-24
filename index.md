@@ -369,7 +369,9 @@ please preview your site before committing, and make sure to run
 
 <h2 id="setup">Setup</h2>
 
-<p>
+The directions ofr installing and setting up the required software can be found 
+<a href = "https://edcarp.github.io/2021-3-29-sfc-dc/setup/setup.html">by following this link</a>.
+<!--p>
   To participate in a
   {% if site.carpentry == "swc" %}
   Software Carpentry
@@ -407,10 +409,4 @@ These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
 
-<!--{% if site.carpentry == "swc" %}-->
-{% include swc/setup.html %}
-<!--{% elsif site.carpentry == "dc" %}-->
-{% include dc/setup.html %}
-<!--{% elsif site.carpentry == "lc" %}-->
-{% include lc/setup.html %}
-<!--{% endif %}-->
+
